@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Links Practise</title>
+  </head>
+
+  <body>
+    <h1>Links</h1>
+    <h2>Content:</h2>
+    <a href="#Creating-Links">How to create links?</a><br />
+    <a href="#Absolute-URL" target="_top">Absolute URL</a><br />
+    <a href="#Relative-URL">Relative URL</a><br />
+    <hr />
+
+    <h3 id="Creating-Links">Creating Links</h3>
+    <p>
+      Links are created using the {a} element which has an attribute called
+      href. The value of the href attribute is the page that you want people to
+      go to when they click on the link. <br />
+    </p>
+
+    <dl>
+      <dt><b>Linking to another page</b></dt>
+      <dd><br />click {a href="https://xyz.com" target="_blank"} here {/a}</dd>
+
+      <h4>Explanation</h4>
+      <!-- used h4 instead of bold to add lines -->
+      attribute href is used to make the link clickable and be able to take the
+      user to that page(pointed by the link) <br />
+      attribute target is used to tell the browser where to open the page <br />
+      _blank = open in new tab <br /><br />
+
+      <dt><b>Linking to element on same page </b></dt>
+      <dd><br />click {a href="#ID-of-element" target=""} here {/a}</dd>
+
+      <h4>Explanation</h4>
+      <!-- used h4 instead of bold to add lines -->
+      attribute href is used to make the link clickable and be able to take the
+      user to that element(pointed by the link and id allocated to it) <br />
+      In order to link to element on same page, give id to that element and use
+      #IDname in href <br />
+      target could be set to any 4 of the available options. <br />
+
+      <h3>
+        Something <em><b>similiar</b></em> could be done to link to specific
+        part of another page
+      </h3>
+      In order to link to element on <em>different</em> page, give id to that
+      element and give path to the page and use #IDname in href after giving /
+      after the path<br />
+      <b>Eg 1:</b> https://xyz.com/#IDname <br />
+      <b>Eg 2:</b> ./path/#IDname <br />
+      target could be set to any 4 of the available options. <br />
+    </dl>
+
+    <hr />
+
+    <dl>
+      <dt id="Absolute-URL">
+        <h3>Absolute URL:</h3>
+      </dt>
+      <dd>
+        URL stands for Uniform Resource Locator. Every web page has its own
+        URL.<br />
+        An absolute URL starts with the domain name for that site, and can be
+        followed by the path to a specific page. <br />
+        If no page is specified, the site will display the homepage.
+      </dd>
+
+      <h3>Example of Absolute URL:</h3>
+      Going from current page to another page stored in another directory but on
+      the same machine. <br />
+      https://./../parent-child/child-page2
+
+      <h4>Explanation of Example</h4>
+      ./ = go to current directory. <br />
+      ../ = go back one directory /directory-name = go the named directory
+    </dl>
+
+    <br />
+
+    <dl>
+      <dt id="Relative-URL">
+        <h3>Relative URL</h3>
+      </dt>
+      <dd>
+        Its path generally refers to a resource on the same machine as the
+        current document.
+      </dd>
+      <h4>Example of Relative URL:</h4>
+      https://example.com/parent-page1/child-page1/grandchild
+    </dl>
+
+    <hr />
+
+    Take a
+    <abbr title="demonstration"
+      ><a href="./Demo/links/links-demo.html">demo</a></abbr
+    >
+  </body>
+</html>
