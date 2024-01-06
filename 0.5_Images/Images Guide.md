@@ -17,15 +17,11 @@ www.sxc.hu
 www.fotolia.com
 
 You cant increase the size of image without affecting its quality.
-    
-    You em>can/em> reduce the size of image in order to reduce the downloading
-    time for user.
-    Use JPEG format when an image has a lot of colours in it.
-    Use PNG b>and/b> GIF format when an image has few colours OR when image
-    has large areas of the same colour, also called flat colour. Such images are
-    also known as flat coloured image
-    Use GIF gormat when displaying few frames animation.
-    Image resolution should no more be than 72ppi (pixels per inch).
-    When displaying vector images, use SVG format to store them OR convert them
-    into bitmap images instead.
-    For transparent images, store them in GIF format OR PNG format.
+You can reduce the size of image in order to reduce the downloading time for user.
+Use JPEG format when an image has a lot of colours in it.
+Use PNG and GIF format when an image has few colours OR when image has large areas of the same colour, also called flat colour. 
+Such images are also known as flat coloured image
+Use GIF gormat when displaying few frames animation.
+Image resolution should no more be than 72ppi (pixels per inch).
+When displaying vector images, use SVG format to store them OR convert them into bitmap images instead.
+For transparent images, store them in GIF format OR PNG format.
