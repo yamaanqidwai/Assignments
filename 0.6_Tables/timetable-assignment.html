@@ -4,14 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Time-Table</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Saylani Mass IT Training</h1>
-    <h2>Classes Schedule (Lab-1)</h2>
+    <div class="header">
+      <div class="display-inline"><h1>Saylani Mass IT Training</h1></div>
+      <h2>Classes Schedule (Lab-1)</h2>
+    </div>
 
     <table>
-      <tr>
+      <tr class="timing">
         <th>Days & Time</th>
         <td>8am - 9am</td>
         <td>9am - 10am</td>
@@ -19,8 +21,8 @@
         <td>11am - 12pm</td>
         <td>12pm - 1pm</td>
         <td>1pm - 2pm</td>
-        <td>2pm - 3pm</td>
-        <td>3pm - 4pm</td>
+        <td class="width-85px">2pm - 3pm</td>
+        <td class="width-85px">3pm - 4pm</td>
         <td>4pm - 5pm</td>
         <td>5pm</td>
         <td>6pm</td>
@@ -33,31 +35,31 @@
 
       <tr>
         <th>Monday</th>
-        <td colspan="3">
+        <td colspan="3" class="blue-background">
           9am to 11am <br />
           Web and App
         </td>
-        <td colspan="2">
+        <td colspan="2" class="blue-background">
           11am to 1pm <br />
           Web and App
         </td>
-        <td rowspan="7">Namaz and Lunch Break</td>
-        <td colspan="2">
+        <td rowspan="7" class="rotated-text">Namaz and Lunch Break</td>
+        <td colspan="2" class="yellow-background">
           2pm to 4pm <br />
           Video Editing <br />
           Section-A
         </td>
-        <td colspan="3">
+        <td colspan="3" class="dull-white-background">
           4pm to 6pm <br />
           Graphic Designing <br />
           Section-A
         </td>
-        <td>
+        <td colspan="3" class="white-blue-background">
           6pm to 9pm <br />
           AI and Chatbot <br />
           (Section-A)
         </td>
-        <td>
+        <td colspan="2" class="light-blue-background">
           9pm to 11pm <br />
           Web and App
         </td>
@@ -65,53 +67,54 @@
 
       <tr>
         <th>Tuesday</th>
-        <td colspan="3">
+        <td colspan="3" class="green-background">
           9am to 11am <br />
           Graphic Designing <br />
           Section-A
         </td>
-        <td colspan="2">
+        <td colspan="2" class="green-background">
           11am to 1pm <br />
           Graphic Designing <br />
           Section-A
         </td>
-        <td colspan="2">
+        <td colspan="2" class="light-yellow-background">
           2pm to 4pm <br />
           CCO [Section-C]
         </td>
-        <td colspan="3">
+        <td colspan="3" class="dull-white-background">
           4pm to 6pm <br />
           Graphic Designing <br />
           Section-B
         </td>
-        <td>
+        <td colspan="3" class="light-blue-background">
           6pm to 9pm <br />
           Web and App
         </td>
+        <td colspan="2" class="dull-white"></td>
       </tr>
 
       <tr>
         <th>Wednesday</th>
-        <td colspan="3">
+        <td colspan="3" class="blue-background">
           9am to 11am <br />
           Web and App
         </td>
-        <td colspan="2">
+        <td colspan="2" class="blue-background">
           11am to 1pm <br />
           Web and App
         </td>
         <td colspan="2"></td>
-        <td colspan="3">
+        <td colspan="3" class="dull-white-background">
           4pm to 6pm <br />
           Graphic Designing <br />
           Section-C
         </td>
-        <td>
+        <td colspan="3" class="white-blue-background">
           6pm to 9pm <br />
           AI and Chatbot <br />
           (Section-A)
         </td>
-        <td>
+        <td colspan="2" class="light-blue-background">
           9pm to 11pm <br />
           Web and App
         </td>
@@ -119,24 +122,99 @@
 
       <tr>
         <th>Thursday</th>
-        <td colspan="5">
-            Free Space
-        </td>
-        <td colspan="2">
+        <td colspan="5" class="red-background">Free Space</td>
+        <td colspan="2" class="yellow-background">
           2pm to 4pm <br />
-          CCO [Section-C]
+          Video Editing <br />
+          Section-A
         </td>
-        <td colspan="3">
+        <td colspan="3" class="dull-white-background">
           4pm to 6pm <br />
           Graphic Designing <br />
           Section-B
         </td>
-        <td>
+        <td colspan="3" class="light-blue-background">
           6pm to 9pm <br />
+          Web and App
+        </td>
+        <td colspan="2"></td>
+      </tr>
+
+      <tr>
+        <th>Friday</th>
+        <td colspan="3" class="blue-background">
+          9am to 11am <br />
+          Web and App
+        </td>
+        <td colspan="2" class="blue-background">
+          11am to 1pm <br />
+          Web and App
+        </td>
+        <td colspan="2" class="light-yellow-background">
+          2pm to 4pm <br />
+          CCO [Section-C]
+        </td>
+        <td colspan="3" class="dull-white-background">
+          4pm to 6pm <br />
+          Graphic Designing <br />
+          Section-C
+        </td>
+        <td colspan="3" class="white-blue-background">
+          6pm to 9pm <br />
+          AI and Chatbot <br />
+          (Section-A)
+        </td>
+        <td colspan="2" class="light-blue-background">
+          9pm to 11pm <br />
           Web and App
         </td>
       </tr>
 
+      <tr>
+        <th>Saturday</th>
+        <td colspan="3" class="green-background">
+          9am to 11am <br />
+          Graphic Designing <br />
+          Section-A
+        </td>
+        <td colspan="2" class="green-background">
+          11am to 1pm <br />
+          Graphic Designing <br />
+          Section-B
+        </td>
+        <td colspan="2"></td>
+        <td colspan="3" class="dull-white-background">
+          4pm to 6pm <br />
+          Graphic Designing <br />
+          Section-B
+        </td>
+        <td colspan="3" class="light-blue-background">
+          6pm to 9pm <br />
+          Web and App
+        </td>
+        <td colspan="2"></td>
+      </tr>
+
+      <tr>
+        <th>Sunday</th>
+        <td></td>
+        <td colspan="3" class="purple-background">
+          9am to 12pm <br />
+          Web and App
+        </td>
+        <td></td>
+        <td colspan="3" class="green-background">
+          2pm to 5pm <br />
+          Video Editing <br />
+          Section-B
+        </td>
+        <td colspan="2"></td>
+        <td colspan="4" class="white-blue-background">
+          6pm to 10pm <br />
+          AI and Chatbot (Section-B)
+        </td>
+        <td></td>
+      </tr>
     </table>
   </body>
 </html>

@@ -1,13 +1,126 @@
-.header {
-    text-decoration: underline;
-    
+body {
+  background-color: rgb(226, 222, 216);
 }
 
+.header {
+  text-decoration: underline;
+  text-align: center;
+  display: block;
+  justify-content: center;
+}
+
+.header h1 {
+  display: inline-block;
+  margin-bottom: 0px;
+  padding: 8px;
+  /* border: 3px solid red; */
+}
+
+.header h2 {
+  display: inline-block;
+  margin: 0px;
+  margin-bottom: 5px;
+  padding: 8px;
+  /* border: 3px solid red; */
+}
+
+h1:hover {
+  color: darkgoldenrod;
+  text-decoration: underline rgb(1, 178, 188);
+  background-color: azure;
+}
+
+h2:hover {
+  color: red;
+  text-decoration: underline yellow;
+  background-color: rgb(255, 254, 240);
+}
+
+table {
+  border-spacing: 0px;
+  align-self: center;
+  border: 2px solid black;
+  width: fit-content;
+  /* padding: 1px; */
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.timing th {
+  font-size: 21px;
+  width: 70px;
+  padding: 10px;  
+}
+
+.timing td {
+  width: 60px;
+  padding: 10px;
+}
+
+td.width-85px {
+  width: 85px;
+  padding: 10px 1px;
+}
+
+td,
+th {
+  /* box-sizing: content-box; */
+  border: 1px solid black;
+}
+
+td.blue-background {
+  background-color: rgb(107, 142, 191);
+}
+
+td.white-blue-background {
+  background-color: grey;
+}
+
+td.light-blue-background {
+  background-color: rgb(155, 189, 238);
+}
+
+td.green-background {
+  background-color: rgb(98, 187, 98);
+}
+
+td.red-background {
+  background-color: rgba(241, 76, 76, 0.672);
+}
+
+td.yellow-background {
+  background-color: darkgoldenrod;
+}
+
+td.light-yellow-background {
+  background-color: yellow;
+}
+
+td.dull-white-background {
+  background-color: blanchedalmond;
+}
+
+td.purple-background {
+  background-color: blueviolet;
+}
+
+
+
+/********************************* Rotating text *********************************/
+.rotated-text {
+  transform: rotate(-180deg);
+  writing-mode: vertical-rl;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+/* 
 td {
   border: 0.5px solid rgb(53, 52, 52);
   margin: 0;
   padding: 5px;
-  /* box-sizing: content-box; */
+  box-sizing: content-box;
   width: fit-content;
 }
 tr {
@@ -30,8 +143,7 @@ td.width-80 {
 }
 
 th.col-1 {
-    font-weight: 900;
-    font-size: 18px;
-    width: 125px;
-    
-}
+  font-weight: 900;
+  font-size: 18px;
+  width: 125px;
+} */
