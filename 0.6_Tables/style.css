@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(226, 222, 216);
+  background-color: rgb(255, 250, 243);
 }
 
 .header {
@@ -69,39 +69,39 @@ th {
 }
 
 td.blue-background {
-  background-color: rgb(107, 142, 191);
+  background-color: rgb(73, 128, 205);
 }
 
 td.white-blue-background {
-  background-color: grey;
+  background-color: rgb(159, 189, 199);
 }
 
 td.light-blue-background {
-  background-color: rgb(155, 189, 238);
+  background-color: rgb(95, 149, 225);
 }
 
 td.green-background {
-  background-color: rgb(98, 187, 98);
+  background-color: rgb(83, 168, 83);
 }
 
 td.red-background {
-  background-color: rgba(241, 76, 76, 0.672);
+  background-color: rgb(216, 51, 51);
 }
 
 td.yellow-background {
-  background-color: darkgoldenrod;
+  background-color: rgb(255, 183, 0);
 }
 
 td.light-yellow-background {
-  background-color: yellow;
+  background-color: rgb(255, 255, 101);
 }
 
 td.dull-white-background {
-  background-color: blanchedalmond;
+  background-color: rgb(206, 201, 195);
 }
 
 td.purple-background {
-  background-color: blueviolet;
+  background-color: rgb(122, 56, 184);
 }
 
 
